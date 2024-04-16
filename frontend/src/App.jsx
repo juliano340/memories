@@ -1,16 +1,19 @@
 import { useState } from 'react'
 import './App.css'
 import { Outlet } from 'react-router-dom'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 function App() {
   
 
   return (
     <>
-      <h3>Memories</h3>
+      <Navbar />
       <div className="container">
         <Outlet />
       </div>
+      <Footer />
     </>
   )
 }
