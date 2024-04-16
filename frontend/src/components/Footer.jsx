@@ -1,4 +1,5 @@
 import React from 'react'
+import './Footer.css'
 
 export default function Footer() {
 
@@ -12,7 +13,7 @@ export default function Footer() {
   return (
    
 
-    <footer>
+    <footer className='footer'>
         <p>Memories © {date} - Todos os direitos reservados.</p>
     </footer>
   )
