@@ -28,7 +28,7 @@ const createMemory = async (req, res) => {
         });
 
         await newMemory.save();
-        res.status(200).json({ msg: "Uploaded!", newMemory });
+        return res.status(200).json({ msg: "Memoria criada com sucesso!", newMemory });
 
 
 

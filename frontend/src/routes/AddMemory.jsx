@@ -2,12 +2,15 @@ import React from 'react'
 import { useState } from 'react'
 import './AddMemory.css'
 import axios from '../axios-config'
+import { toast } from 'react-toastify'
+import { useNavigate } from 'react-router-dom'
 
 export default function AddMemory() {
 
 
   const [inputs, setInputs] = useState({})
   const [image, setImage] = useState(null)
+  const navigate = useNavigate()
 
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -22,9 +25,12 @@ export default function AddMemory() {
             'Content-Type': 'multipart/form-data'
           }
         })
+        toast.success(response.data.msg)
+        navigate('/')
       
     } catch (error) {
       console.log(error)
+      toast.error(error.response.data.msg)
 
     }
   }
