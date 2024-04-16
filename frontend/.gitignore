@@ -1,3 +1,5 @@
+backend/public/images/*
+
 # Logs
 logs
 *.log
