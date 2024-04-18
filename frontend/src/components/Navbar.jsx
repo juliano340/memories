@@ -10,10 +10,10 @@ export default function Navbar() {
         </h2>
         <ul>
             <li>
-                <Link to="/">Home</Link>
+                <Link to="/">Início</Link>
             </li>
             <li>
-                <Link to="/add-memory">Add Memory</Link>
+                <Link to="/add-memory">Nova</Link>
             </li>
         </ul>
 

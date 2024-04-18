@@ -1,10 +1,10 @@
 .navbar {
-    background-color: #49708a;
+    background-color: #2e0d23;
     padding: 1rem 3rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: white
+    color: #f8e4c1
 
 }
 
@@ -14,5 +14,5 @@
 }
 
 .navbar a {
-    color: #caff42;
+    color: #f54828;
 }

@@ -5,10 +5,11 @@
     align-items: center;
     justify-content: center;
     padding: 2rem;
+    background-color: #FFF;
 }
 
 .add-memory-page h2 {
-    color: #49708a;
+    color: #2e0d23;
     padding: 2rem 0 1rem;
     text-align: center;
 
@@ -19,6 +20,6 @@
 }
 .add-memory-page p {
     font-weight: bold;
-    color: #88abc2;
+    color: #2e0d23;
     margin-bottom: 0.4rem;
 }

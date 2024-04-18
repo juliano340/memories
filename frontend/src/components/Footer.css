@@ -1,10 +1,11 @@
 .footer {
-    height: 10vh;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #49708a;
-    color: #caff42;
+    background-color: #2e0d23;
+    color: #f54828;
 
 }
+
 

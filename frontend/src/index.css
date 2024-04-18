@@ -23,8 +23,8 @@ h3 {
 }
 
 .btn {
-  background-color: #49708a;
-  color: #caff42;
+  background-color: #2e0d23;
+  color: #ffedbf;
   border-radius: 5px;
   padding: .6rem 1rem;
   max-width: 120px;
@@ -47,7 +47,7 @@ form{
 
 input, textarea{
   padding: .4rem .6rem;
-  border: 1px solid #49708a;
+  border: 1px solid  #2e0d23;
   border-radius: 5px;
   width: 100%;
 }

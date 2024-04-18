@@ -1,5 +1,10 @@
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
 .home h2 {
-    color: black;
+    color: #2e0d23;
     padding: 2rem 0 1rem;
     text-align: center;
 }

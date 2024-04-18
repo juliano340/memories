@@ -13,6 +13,7 @@ const createMemory = async (req, res) => {
 
     try {
         const { title, description } = req.body;
+        console.log(title, description);
         
 
         const src = `/images/${req.file.filename}`;
@@ -149,7 +150,7 @@ const addComment = async (req, res) => {
 
         
 
-        if (!name || !text) return res.status(400).json({ msg: "Preencha todos os campos, imbecíl!" });
+        if (!name || !text) return res.status(400).json({ msg: "Preencha todos os campos!" });
         const comment = { name, text };
         const memory = await Memory.findById(req.params.id);
         if (!memory) return res.status(404).json({ msg: "Memória não encontrada!" });
